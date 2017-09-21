@@ -44,3 +44,6 @@ script:
       cd $CRATE &&
       travis-cargo test &&
       travis-cargo --only nightly bench
+      
+notifications:
+  email: false
